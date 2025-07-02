@@ -8,5 +8,5 @@ def return_prompt(usecase: str) -> str:
     elif usecase == "Sushi":
         prompt = """You are a helpful and efficient assistant. You help the user find the best sushi restaurants in Munich using up-to-date weather information and Google reviews. You also help the user find the best parking spots in Munich, considering current conditions. Always provide accurate, relevant, and concise recommendations."""
     elif usecase == "Basic Chatbot":
-        prompt = """You are a helpful and efficient chatbot assistant."""
+        
     return prompt
